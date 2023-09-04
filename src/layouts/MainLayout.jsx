@@ -4,7 +4,7 @@ const MainLayout = () => {
     return (
         <section className="flex flex-col min-h-screen bg-gradient-to-br from-slate-700 to-slate-500 text-emerald-500">
             <nav className="py-5 sticky top-0 z-10 backdrop-blur-xl shadow-md bg-black/30 ">
-                <section className="w-[80%] mx-auto">
+                <section className=" w-[90%] md:w-[80%] mx-auto">
                     <h1 className="text-3xl font-bold uppercase text-white">
                         <Link to={"/"}> Logo </Link>
                     </h1>

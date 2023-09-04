@@ -4,6 +4,7 @@ import Score from "./Score";
 import { useGetSelectedQuizQuery } from "./quizApi";
 import QuizDifficulty from "./QuizDifficulty";
 import CategoriesList from "../category/CategoriesList";
+import { Loader } from "../../components";
 
 const Quiz = () => {
     const { currentQuestion, quizEnd, difficulty } = useSelector(
@@ -30,10 +31,7 @@ const Quiz = () => {
     if (isLoading) {
         return (
             <div className="flex items-center justify-center h-full ">
-                <h2 className=" max-w-xl mx-auto p-5 w-full bg-white rounded-md text-center text-2xl font-semibold">
-                    {" "}
-                    Loading . . . Please Wait!
-                </h2>
+                <Loader />
             </div>
         );
     }
