@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .card{
+    @apply text-lg p-3 bg-gray-100 rounded-md shadow-md text-center max-w-xl w-full mx-auto mb-5
+  ;}
+
+  .select-box{
+    @apply h-9 rounded-md px-2 capitalize w-full outline-none border border-emerald-600 mt-3
+  ;}
+}

@@ -1,0 +1,84 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the capital of Myanmar?",
+            "options": ["Yangon", "Mandalay", "Naypyidaw", "Sagaing"],
+            "answer": "Naypyidaw"
+        },
+        {
+            "id": 2,
+            "question": "What is the capital of Shan State?",
+            "options": ["Lashio", "Taunggyi", "Muse", "Kengtung"],
+            "answer": "Taunggyi"
+        },
+        {
+            "id": 3,
+            "question": "What is the capital of Chin State?",
+            "options": ["Hakha", "Falam", "Mindat", "Matupi"],
+            "answer": "Hakha"
+        },
+        {
+            "id": 4,
+            "question": "What is the capital of Kachin State?",
+            "options": ["Myitkyina", "Putao", "Banmaw", "Mohnyin"],
+            "answer": "Myitkyina"
+        },
+        {
+            "id": 5,
+            "question": "What is capital of Ayeyarwaddy?",
+            "options": ["Hinthada", "Pathein", "Maubin", "Myanaung"],
+            "answer": "Pathein"
+        },
+        {
+            "id": 6,
+            "question": "What is capital of Sagiang?",
+            "options": ["Monywa", "Shwebo", "Kale", "Katha"],
+            "answer": "Shwebo"
+        },
+        {
+            "id": 7,
+            "question": "What is capital of Mon State?",
+            "options": ["Mawlamyine", "Thaton", "Kyaikhto", "Ye"],
+            "answer": "Mawlamyine"
+        }
+    ],
+    "categories": [
+        {
+            "id": 9,
+            "name": "General Knowledge"
+        },
+        {
+            "id": 10,
+            "name": "Entertainment: Books"
+        },
+        {
+            "id": 11,
+            "name": "Entertainment: Film"
+        },
+        {
+            "id": 12,
+            "name": "Entertainment: Music"
+        },
+        {
+            "id": 18,
+            "name": "Science: Computers"
+        },
+        {
+            "id": 21,
+            "name": "Sports"
+        },
+        {
+            "id": 22,
+            "name": "Geography"
+        },
+        {
+            "id": 23,
+            "name": "History"
+        },
+        {
+            "id": 28,
+            "name": "Vehicles"
+        }
+    ]
+}
